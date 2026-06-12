@@ -280,8 +280,11 @@ function finishQuiz() {
     // End result screen
     showScreen("resultSection");
 
-    document.getElementById("scoreText").textContent =
-        `Level ${currentLevel} Score: ${score} / ${total}`;
+    document.getElementById("scoreText").innerHTML =
+        `
+        Topic: ${currentTopic.toUpperCase()}<br>
+        Level: ${currentLevel}<br>
+        Score: ${score}/${total}`;
 }
 
 /* Save Result */
@@ -356,6 +359,7 @@ function loadHistory() {
         div.innerHTML = `
             <strong>${item.name}</strong>
             Topic: ${item.topic}<br>
+            Level: ${item.level}<br>
             Score: ${item.score}<br>
             Date: ${item.date}<br>
             Time: ${item.time}
@@ -392,6 +396,7 @@ function shareResult() {
 
 Name: ${name}
 Topic: ${currentTopic}
+Level: ${currentLevel}
 Score: ${score}/${currentQuestions.length}
 `;
 
