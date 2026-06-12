@@ -1,5 +1,6 @@
 let quizData = {};
 let currentTopic = "";
+let currentTopicData = null;
 let currentLevel = 1;
 let currentQuestions = [];
 let currentIndex = 0;
@@ -47,22 +48,7 @@ async function loadQuizData() {
 /* Update Dates */
 
 function showUpdateDates() {
-
-    if (quizData.noun)
-        document.getElementById("nounDate").textContent =
-            "Updated: " + quizData.noun.updated;
-
-    if (quizData.pronoun)
-        document.getElementById("pronounDate").textContent =
-            "Updated: " + quizData.pronoun.updated;
-
-    if (quizData.verb)
-        document.getElementById("verbDate").textContent =
-            "Updated: " + quizData.verb.updated;
-
-    if (quizData.adjective)
-        document.getElementById("adjectiveDate").textContent =
-            "Updated: " + quizData.adjective.updated;
+    // disabled for now
 }
 
 function showScreen(screenId) {
@@ -138,19 +124,21 @@ async function loadTopic(topic) {
 
     const data = await loadQuizFile(topic);
 
+    currentTopicData = data[topic];
+
     currentTopic = topic;
     currentLevel = 1;
 
     currentQuestions =
-        data[topic].levels[currentLevel].questions;
+        currentTopicData.levels["1"].questions;
 
     currentIndex = 0;
     score = 0;
 
-    showScreen("quizSection");
-
     document.getElementById("topicTitle").textContent =
         topic.toUpperCase() + " - Level 1";
+
+    showScreen("quizSection");
 
     showQuestion();
 }
@@ -251,8 +239,8 @@ function finishQuiz() {
         currentLevel++;
 
         const nextLevel =
-            quizData[currentTopic].levels[currentLevel];
-
+            currentTopicData.levels[String(currentLevel)];
+        
         if (nextLevel) {
 
             alert("Level " + (currentLevel - 1) +
@@ -418,4 +406,4 @@ if (navigator.serviceWorker) {
         .then(regs => {
             regs.forEach(reg => reg.update());
         });
-        }
+}
