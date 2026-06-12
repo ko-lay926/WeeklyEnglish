@@ -95,15 +95,25 @@ function loadSavedName() {
 
 function loadTopic(topic) {
 
+    if (!quizData[topic]) {
+        alert("Topic not found: " + topic);
+        return;
+    }
+
     currentTopic = topic;
 
-    currentQuestions = quizData[topic].questions;
+    currentQuestions = quizData[topic].questions || [];
+
+    if (currentQuestions.length === 0) {
+        alert("No questions found!");
+        return;
+    }
 
     currentIndex = 0;
     score = 0;
 
     document.getElementById("quizSection").classList.remove("hidden");
-
+    document.getElementById("topicSection").classList.add("hidden");
     document.getElementById("resultSection").classList.add("hidden");
 
     document.getElementById("topicTitle").textContent =
@@ -120,31 +130,28 @@ function showQuestion() {
 
     const q = currentQuestions[currentIndex];
 
-    document.getElementById("question").textContent =
-        q.question;
+    if (!q || !q.q) {
+        alert("Question error!");
+        return;
+    }
 
-    const optionsDiv =
-        document.getElementById("options");
+    document.getElementById("question").textContent = q.q;
 
+    const optionsDiv = document.getElementById("options");
     optionsDiv.innerHTML = "";
 
     q.options.forEach((option, index) => {
 
         const btn = document.createElement("button");
-
         btn.className = "optionBtn";
-
         btn.textContent = option;
 
         btn.onclick = () => {
 
             selectedAnswer = index;
 
-            document
-                .querySelectorAll(".optionBtn")
-                .forEach(b =>
-                    b.classList.remove("selected")
-                );
+            document.querySelectorAll(".optionBtn")
+                .forEach(b => b.classList.remove("selected"));
 
             btn.classList.add("selected");
         };
@@ -318,6 +325,9 @@ function goHome() {
 
     document.getElementById("resultSection")
         .classList.add("hidden");
+    
+    document.getElementById("topicSection")
+        .classList.remove("hidden");
 
     window.scrollTo(0, 0);
     }
