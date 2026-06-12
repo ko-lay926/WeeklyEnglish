@@ -28,15 +28,18 @@ async function loadQuizData() {
 
     try {
 
-        const response = await fetch("quizzes.json");
-        quizData = await response.json();
+        const response = await fetch("quizzes/index.json");
+
+        const data = await response.json();
+
+        quizData = data.topics;
 
         showUpdateDates();
 
     } catch (e) {
 
         console.error(e);
-        alert("Quiz file could not be loaded.");
+        alert("Quiz index could not be loaded.");
 
     }
 }
@@ -131,14 +134,15 @@ function loadSavedName() {
 
 /* Start Topic */
 
-function loadTopic(topic) {
+async function loadTopic(topic) {
+
+    const data = await loadQuizFile(topic);
 
     currentTopic = topic;
-
     currentLevel = 1;
 
     currentQuestions =
-        quizData[topic].levels[currentLevel].questions;
+        data[topic].levels[currentLevel].questions;
 
     currentIndex = 0;
     score = 0;
@@ -146,9 +150,21 @@ function loadTopic(topic) {
     showScreen("quizSection");
 
     document.getElementById("topicTitle").textContent =
-        topic.toUpperCase() + " - Level " + currentLevel;
+        topic.toUpperCase() + " - Level 1";
 
     showQuestion();
+}
+
+async function loadQuizFile(topic) {
+
+    const response = await fetch(`quizzes/${topic}.json`);
+
+    if (!response.ok) {
+        alert("Quiz file not found: " + topic);
+        return null;
+    }
+
+    return await response.json();
 }
 
 /* Show Question */
