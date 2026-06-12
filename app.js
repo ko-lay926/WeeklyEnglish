@@ -1,5 +1,6 @@
 let quizData = {};
 let currentTopic = "";
+let currentLevel = 1;
 let currentQuestions = [];
 let currentIndex = 0;
 let score = 0;
@@ -133,14 +134,19 @@ function loadSavedName() {
 function loadTopic(topic) {
 
     currentTopic = topic;
-    currentQuestions = quizData[topic].questions;
+
+    currentLevel = 1;
+
+    currentQuestions =
+        quizData[topic].levels[currentLevel].questions;
+
     currentIndex = 0;
     score = 0;
 
     showScreen("quizSection");
 
     document.getElementById("topicTitle").textContent =
-        topic.toUpperCase();
+        topic.toUpperCase() + " - Level " + currentLevel;
 
     showQuestion();
 }
@@ -217,14 +223,45 @@ function nextQuestion() {
 
 function finishQuiz() {
 
-    showScreen("resultSection");
-
     const total = currentQuestions.length;
 
-    document.getElementById("scoreText").textContent =
-        `Score: ${score} / ${total}`;
+    const percent = (score / total) * 100;
 
+    // Save result
     saveResult();
+
+    if (percent >= 100) {
+
+        currentLevel++;
+
+        const nextLevel =
+            quizData[currentTopic].levels[currentLevel];
+
+        if (nextLevel) {
+
+            alert("Level " + (currentLevel - 1) +
+                  " Completed! Next Level Unlocked");
+
+            currentQuestions = nextLevel.questions;
+            currentIndex = 0;
+            score = 0;
+
+            document.getElementById("topicTitle").textContent =
+                currentTopic.toUpperCase() +
+                " - Level " + currentLevel;
+
+            showScreen("quizSection");
+            showQuestion();
+
+            return;
+        }
+    }
+
+    // End result screen
+    showScreen("resultSection");
+
+    document.getElementById("scoreText").textContent =
+        `Level ${currentLevel} Score: ${score} / ${total}`;
 }
 
 /* Save Result */
