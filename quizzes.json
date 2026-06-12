@@ -2,64 +2,80 @@
   "noun": {
     "updated": "2026-06-12",
     "questions": [
-      { "q": "Choose the noun.", "options": ["Book", "Run", "Fast"], "answer": 0 },
-      { "q": "I saw ___ apple.", "options": ["a", "an", "the"], "answer": 1 },
-      { "q": "Choose the plural noun.", "options": ["dogs", "cat", "pen"], "answer": 0 },
-      { "q": "She has ___ umbrella.", "options": ["a", "an", "the"], "answer": 1 },
-      { "q": "Choose the naming word.", "options": ["chair", "jump", "happy"], "answer": 0 },
-      { "q": "We went to ___ zoo yesterday.", "options": ["a", "an", "the"], "answer": 2 },
-      { "q": "Choose the singular noun.", "options": ["books", "table", "cars"], "answer": 1 },
-      { "q": "He is eating ___ orange.", "options": ["a", "an", "the"], "answer": 1 },
-      { "q": "Choose the person noun.", "options": ["teacher", "blue", "run"], "answer": 0 },
-      { "q": "___ sun rises in the east.", "options": ["A", "An", "The"], "answer": 2 }
+      { "q": "Choose the noun.", "options": ["Book", "Run", "Quickly"], "answer": 0 },
+      { "q": "Dog is a ____.", "options": ["Verb", "Noun", "Adjective"], "answer": 1 }
     ]
   },
 
   "pronoun": {
     "updated": "2026-06-12",
     "questions": [
-      { "q": "___ is my brother.", "options": ["He", "She", "They"], "answer": 0 },
-      { "q": "Sara is my friend. ___ is kind.", "options": ["He", "She", "They"], "answer": 1 },
-      { "q": "I have a dog. ___ is brown.", "options": ["It", "They", "We"], "answer": 0 },
-      { "q": "Tom and John are playing. ___ are happy.", "options": ["He", "They", "She"], "answer": 1 },
-      { "q": "___ am a student.", "options": ["I", "He", "They"], "answer": 0 },
-      { "q": "This is my mother. ___ cooks dinner.", "options": ["He", "She", "It"], "answer": 1 },
-      { "q": "The boys are running. ___ are fast.", "options": ["They", "He", "She"], "answer": 0 },
-      { "q": "This book is new. ___ is interesting.", "options": ["It", "They", "She"], "answer": 0 },
-      { "q": "Anna and I are classmates. ___ study together.", "options": ["We", "They", "She"], "answer": 0 },
-      { "q": "My father is a doctor. ___ works at a hospital.", "options": ["He", "She", "They"], "answer": 0 }
+      { "q": "___ is my friend.", "options": ["He", "They", "Run"], "answer": 0 },
+      { "q": "Sara is kind. ___ helps others.", "options": ["She", "Her", "Him"], "answer": 0 }
     ]
   },
 
   "verb": {
     "updated": "2026-06-12",
     "questions": [
-      { "q": "She ___ to school every day.", "options": ["go", "goes", "going"], "answer": 1 },
-      { "q": "They ___ football after school.", "options": ["play", "plays", "playing"], "answer": 0 },
-      { "q": "I ___ my homework at night.", "options": ["do", "does", "doing"], "answer": 0 },
-      { "q": "He ___ TV every evening.", "options": ["watch", "watches", "watching"], "answer": 1 },
-      { "q": "We ___ breakfast at 7 AM.", "options": ["eat", "eats", "eating"], "answer": 0 },
-      { "q": "The dog ___ very fast.", "options": ["run", "runs", "running"], "answer": 1 },
-      { "q": "My mother ___ dinner every night.", "options": ["cook", "cooks", "cooking"], "answer": 1 },
-      { "q": "I ___ English at school.", "options": ["study", "studies", "studying"], "answer": 0 },
-      { "q": "They ___ in the park.", "options": ["play", "plays", "playing"], "answer": 0 },
-      { "q": "He ___ music every day.", "options": ["listen", "listens", "listening"], "answer": 1 }
+      { "q": "She ___ to school.", "options": ["go", "goes", "gone"], "answer": 1 },
+      { "q": "They ___ football.", "options": ["play", "plays", "playing"], "answer": 0 }
     ]
   },
 
   "adjective": {
     "updated": "2026-06-12",
     "questions": [
-      { "q": "The cat is ___.", "options": ["soft", "run", "quickly"], "answer": 0 },
-      { "q": "She has a ___ bag.", "options": ["red", "jump", "slowly"], "answer": 0 },
-      { "q": "The boy is very ___.", "options": ["tall", "sing", "happily"], "answer": 0 },
-      { "q": "We saw a ___ elephant.", "options": ["big", "dance", "quickly"], "answer": 0 },
-      { "q": "The flower is ___.", "options": ["beautiful", "write", "slowly"], "answer": 0 },
-      { "q": "He is wearing a ___ shirt.", "options": ["blue", "run", "sadly"], "answer": 0 },
-      { "q": "The soup is very ___.", "options": ["hot", "eat", "quietly"], "answer": 0 },
-      { "q": "They live in a ___ house.", "options": ["small", "walk", "happily"], "answer": 0 },
-      { "q": "The rabbit is very ___.", "options": ["fast", "jump", "slowly"], "answer": 0 },
-      { "q": "I have a ___ pencil.", "options": ["long", "swim", "carefully"], "answer": 0 }
+      { "q": "The sky is ___.", "options": ["blue", "run", "quickly"], "answer": 0 },
+      { "q": "She has a ___ dress.", "options": ["beautiful", "eat", "run"], "answer": 0 }
+    ]
+  },
+
+  "adverb": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "He runs ___.", "options": ["fast", "faster", "fastly"], "answer": 0 },
+      { "q": "She speaks ___.", "options": ["clearly", "clear", "clearness"], "answer": 0 }
+    ]
+  },
+
+  "tense": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "She ___ a letter yesterday.", "options": ["write", "wrote", "written"], "answer": 1 },
+      { "q": "They ___ playing now.", "options": ["is", "are", "was"], "answer": 1 }
+    ]
+  },
+
+  "articles": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "I saw ___ elephant.", "options": ["a", "an", "the"], "answer": 1 },
+      { "q": "___ sun is bright.", "options": ["A", "An", "The"], "answer": 2 }
+    ]
+  },
+
+  "prepositions": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "The book is ___ the table.", "options": ["on", "in", "at"], "answer": 0 },
+      { "q": "She lives ___ Yangon.", "options": ["in", "on", "at"], "answer": 0 }
+    ]
+  },
+
+  "conjunctions": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "I like tea ___ coffee.", "options": ["and", "but", "or"], "answer": 0 },
+      { "q": "He is small ___ strong.", "options": ["and", "but", "or"], "answer": 1 }
+    ]
+  },
+
+  "interjections": {
+    "updated": "2026-06-12",
+    "questions": [
+      { "q": "___! That hurts!", "options": ["Wow", "Ouch", "Hello"], "answer": 1 },
+      { "q": "___! What a beautiful day!", "options": ["Hey", "Wow", "Stop"], "answer": 1 }
     ]
   }
 }
