@@ -53,17 +53,15 @@ self.addEventListener("activate", event => {
 
 /* Fetch */
 
-self.addEventListener("fetch", event => {
+self.addEventListener("activate", event => {
 
-  event.respondWith(
-
-    caches.match(event.request)
-      .then(response => {
-
-        return response || fetch(event.request);
-
-      })
-
+  event.waitUntil(
+    caches.keys().then(keys => {
+      return Promise.all(
+        keys.map(key => caches.delete(key))
+      );
+    })
   );
 
+  self.clients.claim();
 });
