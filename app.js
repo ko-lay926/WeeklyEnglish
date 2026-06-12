@@ -331,3 +331,10 @@ function goHome() {
 
     window.scrollTo(0, 0);
     }
+
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.getRegistrations()
+        .then(regs => {
+            regs.forEach(reg => reg.update());
+        });
+        }
