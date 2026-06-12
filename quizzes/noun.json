@@ -1,1 +1,156 @@
+{
+  "noun": {
+    "updated": "2026-06-12",
+    "levels": {
+      "1": {
+        "questions": [
+          { "q": "Choose the noun.", "options": ["Book", "Run", "Fast"], "answer": 0 },
+          { "q": "I saw ___ apple.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the plural noun.", "options": ["dogs", "cat", "pen"], "answer": 0 },
+          { "q": "She has ___ umbrella.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the naming word.", "options": ["chair", "jump", "happy"], "answer": 0 },
+          { "q": "We went to ___ zoo yesterday.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the singular noun.", "options": ["books", "table", "cars"], "answer": 1 },
+          { "q": "He is eating ___ orange.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the person noun.", "options": ["teacher", "blue", "run"], "answer": 0 },
+          { "q": "___ sun rises in the east.", "options": ["A", "An", "The"], "answer": 2 }
+        ]
+      },
 
+      "2": {
+        "questions": [
+          { "q": "Choose the common noun.", "options": ["city", "Yangon", "Monday"], "answer": 0 },
+          { "q": "She bought ___ new bag.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the proper noun.", "options": ["country", "river", "Myanmar"], "answer": 2 },
+          { "q": "I saw ___ elephant at the zoo.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the plural form of 'baby'.", "options": ["babys", "babies", "babyes"], "answer": 1 },
+          { "q": "Please close ___ door.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the object noun.", "options": ["pen", "sing", "beautiful"], "answer": 0 },
+          { "q": "He wants to be ___ engineer.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the place noun.", "options": ["school", "write", "green"], "answer": 0 },
+          { "q": "They visited ___ museum yesterday.", "options": ["a", "an", "the"], "answer": 2 }
+        ]
+      },
+
+      "3": {
+        "questions": [
+          { "q": "Choose the plural form of 'box'.", "options": ["boxs", "boxes", "boxies"], "answer": 1 },
+          { "q": "She adopted ___ cute puppy.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the abstract noun.", "options": ["honesty", "chair", "book"], "answer": 0 },
+          { "q": "He ate ___ egg for breakfast.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the collective noun.", "options": ["team", "apple", "river"], "answer": 0 },
+          { "q": "We watched ___ movie last night.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the correct noun.", "options": ["garden", "quickly", "jump"], "answer": 0 },
+          { "q": "She is ___ honest girl.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the singular noun.", "options": ["leaves", "child", "cars"], "answer": 1 },
+          { "q": "I read ___ interesting story.", "options": ["a", "an", "the"], "answer": 1 }
+        ]
+      },
+
+      "4": {
+        "questions": [
+          { "q": "Choose the plural form of 'knife'.", "options": ["knifes", "knives", "knifees"], "answer": 1 },
+          { "q": "We stayed at ___ hotel near the beach.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the material noun.", "options": ["gold", "teacher", "book"], "answer": 0 },
+          { "q": "She found ___ old coin in the garden.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the plural form of 'child'.", "options": ["childs", "children", "childes"], "answer": 1 },
+          { "q": "They climbed ___ mountain last year.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the proper noun.", "options": ["Yangon", "city", "country"], "answer": 0 },
+          { "q": "He bought ___ useful book.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the uncountable noun.", "options": ["water", "chairs", "apples"], "answer": 0 },
+          { "q": "She saw ___ owl in the tree.", "options": ["a", "an", "the"], "answer": 1 }
+        ]
+      },
+
+      "5": {
+        "questions": [
+          { "q": "Choose the plural form of 'tooth'.", "options": ["tooths", "teeth", "toothes"], "answer": 1 },
+          { "q": "___ moon looks beautiful tonight.", "options": ["A", "An", "The"], "answer": 2 },
+          { "q": "Choose the abstract noun.", "options": ["freedom", "pencil", "garden"], "answer": 0 },
+          { "q": "He is ___ university student.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the collective noun.", "options": ["crowd", "chair", "river"], "answer": 0 },
+          { "q": "We listened to ___ interesting speech.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the plural form of 'mouse'.", "options": ["mouses", "mice", "mousees"], "answer": 1 },
+          { "q": "She wore ___ uniform to school.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the concrete noun.", "options": ["table", "honesty", "love"], "answer": 0 },
+          { "q": "He waited for ___ hour.", "options": ["a", "an", "the"], "answer": 1 }
+        ]
+      },
+
+      "6": {
+        "questions": [
+          { "q": "Choose the plural form of 'man'.", "options": ["mans", "men", "manes"], "answer": 1 },
+          { "q": "She is ___ European tourist.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the countable noun.", "options": ["rice", "book", "water"], "answer": 1 },
+          { "q": "They visited ___ Eiffel Tower during their trip.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the plural form of 'leaf'.", "options": ["leafs", "leafes", "leaves"], "answer": 2 },
+          { "q": "He gave me ___ useful advice.", "options": ["a", "an", "some"], "answer": 2 },
+          { "q": "Choose the abstract noun.", "options": ["kindness", "desk", "window"], "answer": 0 },
+          { "q": "We adopted ___ adorable kitten.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the irregular plural noun.", "options": ["children", "boys", "tables"], "answer": 0 },
+          { "q": "She wants to become ___ artist.", "options": ["a", "an", "the"], "answer": 1 }
+        ]
+      },
+
+      "7": {
+        "questions": [
+          { "q": "Choose the plural form of 'person'.", "options": ["persons", "people", "peoples"], "answer": 1 },
+          { "q": "He has ___ unique way of thinking.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the proper noun.", "options": ["Amazon", "river", "forest"], "answer": 0 },
+          { "q": "She bought ___ umbrella from the market.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the abstract noun.", "options": ["justice", "pencil", "apple"], "answer": 0 },
+          { "q": "We stayed in ___ expensive hotel.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the plural form of 'foot'.", "options": ["foots", "feet", "footes"], "answer": 1 },
+          { "q": "He saw ___ eagle flying above the mountain.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the collective noun.", "options": ["army", "teacher", "desk"], "answer": 0 },
+          { "q": "They visited ___ United States last year.", "options": ["a", "an", "the"], "answer": 2 }
+        ]
+      },
+
+      "8": {
+        "questions": [
+          { "q": "Choose the plural form of 'phenomenon'.", "options": ["phenomenons", "phenomena", "phenomenas"], "answer": 1 },
+          { "q": "It was ___ honor to meet the scientist.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the uncountable noun.", "options": ["information", "chairs", "books"], "answer": 0 },
+          { "q": "She plays ___ piano very well.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the abstract noun.", "options": ["wisdom", "lamp", "school"], "answer": 0 },
+          { "q": "He bought ___ one-dollar notebook.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the plural form of 'cactus'.", "options": ["cactuses", "cacti", "cactis"], "answer": 1 },
+          { "q": "We had ___ amazing experience yesterday.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the collective noun.", "options": ["fleet", "chair", "garden"], "answer": 0 },
+          { "q": "She visited ___ Netherlands during summer.", "options": ["a", "an", "the"], "answer": 2 }
+        ]
+      },
+
+      "9": {
+        "questions": [
+          { "q": "Choose the plural form of 'criterion'.", "options": ["criterions", "criteria", "criterias"], "answer": 1 },
+          { "q": "He is ___ heir to the royal family.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the abstract noun.", "options": ["knowledge", "window", "tree"], "answer": 0 },
+          { "q": "She bought ___ house near the lake.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the plural form of 'analysis'.", "options": ["analysises", "analyses", "analysises"], "answer": 1 },
+          { "q": "We watched ___ sunrise this morning.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the material noun.", "options": ["silver", "teacher", "car"], "answer": 0 },
+          { "q": "He gave me ___ honest answer.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the irregular plural noun.", "options": ["mice", "tables", "pens"], "answer": 0 },
+          { "q": "She visited ___ Himalayas last year.", "options": ["a", "an", "the"], "answer": 2 }
+        ]
+      },
+
+      "10": {
+        "questions": [
+          { "q": "Choose the plural form of 'basis'.", "options": ["basises", "bases", "basises"], "answer": 1 },
+          { "q": "He has ___ MBA degree from a famous university.", "options": ["a", "an", "the"], "answer": 1 },
+          { "q": "Choose the abstract noun.", "options": ["patience", "computer", "chair"], "answer": 0 },
+          { "q": "They stayed at ___ Hilton Hotel during the conference.", "options": ["a", "an", "the"], "answer": 2 },
+          { "q": "Choose the plural form of 'thesis'.", "options": ["thesises", "theses", "thesises"], "answer": 1 },
+          { "q": "She gave me ___ useful piece of advice.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the collective noun.", "options": ["committee", "table", "school"], "answer": 0 },
+          { "q": "We saw ___ UFO in the night sky.", "options": ["a", "an", "the"], "answer": 0 },
+          { "q": "Choose the uncountable noun.", "options": ["equipment", "chairs", "students"], "answer": 0 },
+          { "q": "He visited ___ Philippines last summer.", "options": ["a", "an", "the"], "answer": 2 }
+        ]
+      }
+    }
+  }
+          }
