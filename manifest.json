@@ -1,0 +1,21 @@
+{
+  "name": "WeeklyEnglish Pro",
+  "short_name": "WeeklyEnglish",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#4CAF50",
+  "theme_color": "#4CAF50",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
