@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WeeklyEnglish Pro</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<meta name="theme-color" content="#4CAF50">
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash">
+    <h1>📘 WeeklyEnglish Pro</h1>
+    <p>Loading...</p>
+</div>
+
+<!-- Main App -->
+<div id="app" class="hidden">
+
+    <header>
+        <h1>📘 WeeklyEnglish Pro</h1>
+    </header>
+
+    <!-- Name Section -->
+    <section id="nameSection">
+        <h2>Enter Your Name</h2>
+
+        <input
+            type="text"
+            id="userName"
+            placeholder="Your Name"
+        >
+
+        <button onclick="saveName()">
+            Save Name
+        </button>
+
+        <p id="welcome"></p>
+    </section>
+
+    <!-- Topic Menu -->
+    <section id="topicSection">
+
+        <h2>Grammar Topics</h2>
+
+        <div class="topics">
+
+            <button class="topicBtn" onclick="loadTopic('noun')">
+                Noun
+                <span id="nounDate"></span>
+            </button>
+
+            <button class="topicBtn" onclick="loadTopic('pronoun')">
+                Pronoun
+                <span id="pronounDate"></span>
+            </button>
+
+            <button class="topicBtn" onclick="loadTopic('verb')">
+                Verb
+                <span id="verbDate"></span>
+            </button>
+
+            <button class="topicBtn" onclick="loadTopic('adjective')">
+                Adjective
+                <span id="adjectiveDate"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quizSection" class="hidden">
+
+        <h2 id="topicTitle"></h2>
+
+        <div id="questionBox">
+            <h3 id="question"></h3>
+
+            <div id="options"></div>
+        </div>
+
+        <p id="progress"></p>
+
+        <button id="nextBtn" onclick="nextQuestion()">
+            Next
+        </button>
+
+    </section>
+
+    <!-- Result Section -->
+    <section id="resultSection" class="hidden">
+
+        <h2>Quiz Result</h2>
+
+        <p id="scoreText"></p>
+
+        <button onclick="shareResult()">
+            Share Result
+        </button>
+
+        <button onclick="goHome()">
+            Back Home
+        </button>
+
+    </section>
+
+    <!-- History Section -->
+    <section id="historySection">
+
+        <h2>📊 Result History</h2>
+
+        <div id="historyList">
+            No Results Yet
+        </div>
+
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+}
+</script>
+
+</body>
+</html>
