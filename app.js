@@ -76,6 +76,9 @@ function saveName() {
 
     document.getElementById("welcome").textContent =
         "Welcome, " + name + "!";
+
+    // 🔥 HIDE NAME SECTION
+    document.getElementById("nameSection").classList.add("hidden");
 }
 
 function loadSavedName() {
@@ -88,6 +91,9 @@ function loadSavedName() {
 
         document.getElementById("welcome").textContent =
             "Welcome, " + name + "!";
+
+        // 🔥 AUTO HIDE NAME SECTION
+        document.getElementById("nameSection").classList.add("hidden");
     }
 }
 
@@ -96,25 +102,22 @@ function loadSavedName() {
 function loadTopic(topic) {
 
     if (!quizData[topic]) {
-        alert("Topic not found: " + topic);
+        alert("Topic not found");
         return;
     }
 
     currentTopic = topic;
-
-    currentQuestions = quizData[topic].questions || [];
-
-    if (currentQuestions.length === 0) {
-        alert("No questions found!");
-        return;
-    }
-
+    currentQuestions = quizData[topic].questions;
     currentIndex = 0;
     score = 0;
 
-    document.getElementById("quizSection").classList.remove("hidden");
+    // 🔥 HIDE EVERYTHING FIRST
     document.getElementById("topicSection").classList.add("hidden");
+    document.getElementById("historySection").classList.add("hidden");
     document.getElementById("resultSection").classList.add("hidden");
+
+    // 🔥 SHOW QUIZ ONLY
+    document.getElementById("quizSection").classList.remove("hidden");
 
     document.getElementById("topicTitle").textContent =
         topic.toUpperCase();
@@ -194,16 +197,17 @@ function nextQuestion() {
 
 function finishQuiz() {
 
-    document.getElementById("quizSection")
-        .classList.add("hidden");
+    document.getElementById("quizSection").classList.add("hidden");
 
-    document.getElementById("resultSection")
-        .classList.remove("hidden");
+    document.getElementById("resultSection").classList.remove("hidden");
+
+    // 🔥 HIDE OTHER SECTIONS
+    document.getElementById("topicSection").classList.add("hidden");
+    document.getElementById("historySection").classList.add("hidden");
 
     const total = currentQuestions.length;
 
-    document.getElementById("scoreText")
-        .textContent =
+    document.getElementById("scoreText").textContent =
         `Score: ${score} / ${total}`;
 
     saveResult();
@@ -320,17 +324,14 @@ Score: ${score}/${currentQuestions.length}
 
 function goHome() {
 
-    document.getElementById("quizSection")
-        .classList.add("hidden");
+    document.getElementById("quizSection").classList.add("hidden");
+    document.getElementById("resultSection").classList.add("hidden");
 
-    document.getElementById("resultSection")
-        .classList.add("hidden");
-    
-    document.getElementById("topicSection")
-        .classList.remove("hidden");
+    document.getElementById("topicSection").classList.remove("hidden");
+    document.getElementById("historySection").classList.remove("hidden");
 
     window.scrollTo(0, 0);
-    }
+}
 
 if (navigator.serviceWorker) {
     navigator.serviceWorker.getRegistrations()
