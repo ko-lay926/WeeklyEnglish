@@ -306,6 +306,21 @@ function loadHistory() {
     });
 }
 
+function clearResults() {
+
+    const confirmDelete = confirm(
+        "Are you sure you want to delete all results?"
+    );
+
+    if (!confirmDelete) return;
+
+    localStorage.removeItem("quizHistory");
+
+    loadHistory();
+
+    alert("All results cleared!");
+}
+
 /* Share */
 
 function shareResult() {
