@@ -199,6 +199,15 @@ button:hover{
     }
 }
 
+.dangerBtn {
+    background: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.dangerBtn:hover {
+    background: #c0392b;
+}
+
 /* Smooth card feel */
 section {
     transition: all 0.3s ease;
