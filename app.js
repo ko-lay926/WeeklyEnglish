@@ -56,6 +56,7 @@ function showScreen(screenId) {
     const screens = [
         "nameSection",
         "topicSection",
+        "levelSection",
         "quizSection",
         "resultSection",
         "historySection"
@@ -125,22 +126,41 @@ async function loadTopic(topic) {
     const data = await loadQuizFile(topic);
 
     currentTopicData = data[topic];
-
     currentTopic = topic;
-    currentLevel = 1;
 
-    currentQuestions =
-        currentTopicData.levels["1"].questions;
+    document.getElementById("levelTopicTitle").textContent =
+        topic.toUpperCase() + " Levels";
 
-    currentIndex = 0;
-    score = 0;
+    buildLevelButtons();
 
-    document.getElementById("topicTitle").textContent =
-        topic.toUpperCase() + " - Level 1";
+    showScreen("levelSection");
+}
 
-    showScreen("quizSection");
+function buildLevelButtons() {
 
-    showQuestion();
+    const container =
+        document.getElementById("levelButtons");
+
+    container.innerHTML = "";
+
+    const levels =
+        currentTopicData.levels;
+
+    Object.keys(levels).forEach(level => {
+
+        const btn =
+            document.createElement("button");
+
+        btn.className = "levelBtn";
+
+        btn.textContent =
+            "Level " + level;
+
+        btn.onclick = () =>
+            startLevel(level);
+
+        container.appendChild(btn);
+    });
 }
 
 async function loadQuizFile(topic) {
@@ -153,6 +173,25 @@ async function loadQuizFile(topic) {
     }
 
     return await response.json();
+}
+
+function startLevel(level) {
+
+    currentLevel = parseInt(level);
+
+    currentQuestions =
+        currentTopicData.levels[level].questions;
+
+    currentIndex = 0;
+    score = 0;
+
+    document.getElementById("topicTitle").textContent =
+        currentTopic.toUpperCase() +
+        " - Level " + level;
+
+    showScreen("quizSection");
+
+    showQuestion();
 }
 
 /* Show Question */
@@ -234,32 +273,9 @@ function finishQuiz() {
     // Save result
     saveResult();
 
-    if (percent >= 100) {
-
-        currentLevel++;
-
-        const nextLevel =
-            currentTopicData.levels[String(currentLevel)];
-        
-        if (nextLevel) {
-
-            alert("Level " + (currentLevel - 1) +
-                  " Completed! Next Level Unlocked");
-
-            currentQuestions = nextLevel.questions;
-            currentIndex = 0;
-            score = 0;
-
-            document.getElementById("topicTitle").textContent =
-                currentTopic.toUpperCase() +
-                " - Level " + currentLevel;
-
-            showScreen("quizSection");
-            showQuestion();
-
-            return;
-        }
-    }
+    showScreen("resultSection");
+    document.getElementById("scoreText").textContent =
+    `Level ${currentLevel} Score: ${score}/${total}`;
 
     // End result screen
     showScreen("resultSection");
