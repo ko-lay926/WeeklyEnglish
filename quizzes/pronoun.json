@@ -1,1 +1,156 @@
+{
+  "pronoun": {
+    "updated": "2026-06-12",
+    "levels": {
+      "1": {
+        "questions": [
+          { "q": "___ is my brother.", "options": ["They", "He", "She"], "answer": 1 },
+          { "q": "Sara is my friend. ___ is kind.", "options": ["She", "They", "He"], "answer": 0 },
+          { "q": "I have a dog. ___ is brown.", "options": ["We", "It", "They"], "answer": 1 },
+          { "q": "Tom and John are playing. ___ are happy.", "options": ["She", "He", "They"], "answer": 2 },
+          { "q": "___ am a student.", "options": ["He", "I", "They"], "answer": 1 },
+          { "q": "This is my mother. ___ cooks dinner.", "options": ["She", "It", "He"], "answer": 0 },
+          { "q": "The boys are running. ___ are fast.", "options": ["He", "She", "They"], "answer": 2 },
+          { "q": "This book is new. ___ is interesting.", "options": ["She", "It", "They"], "answer": 1 },
+          { "q": "Anna and I are classmates. ___ study together.", "options": ["We", "They", "She"], "answer": 0 },
+          { "q": "My father is a doctor. ___ works at a hospital.", "options": ["She", "He", "They"], "answer": 1 }
+        ]
+      },
 
+      "2": {
+        "questions": [
+          { "q": "These are my friends. I like ___ very much.", "options": ["him", "her", "them"], "answer": 2 },
+          { "q": "This is my pencil. It is ___.", "options": ["I", "mine", "me"], "answer": 1 },
+          { "q": "My sister has a cat. ___ name is Mimi.", "options": ["His", "Its", "Her"], "answer": 2 },
+          { "q": "John is my cousin. I saw ___ yesterday.", "options": ["her", "them", "him"], "answer": 2 },
+          { "q": "That bag belongs to me. It is ___.", "options": ["mine", "me", "my"], "answer": 0 },
+          { "q": "The girls are singing. ___ sound happy.", "options": ["He", "She", "They"], "answer": 2 },
+          { "q": "This is my mother. I love ___.", "options": ["him", "her", "them"], "answer": 1 },
+          { "q": "The dog is hungry. Give ___ some food.", "options": ["her", "them", "him"], "answer": 2 },
+          { "q": "My brother and I play football. ___ enjoy the game.", "options": ["We", "He", "They"], "answer": 0 },
+          { "q": "I have two books. ___ are on the table.", "options": ["They", "It", "He"], "answer": 0 }
+        ]
+      },
+
+      "3": {
+        "questions": [
+          { "q": "She made the cake by ___.", "options": ["herself", "hers", "her"], "answer": 0 },
+          { "q": "This classroom is ___.", "options": ["ours", "our", "us"], "answer": 0 },
+          { "q": "The boys finished the work by ___.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "Is this pen ___?", "options": ["your", "yours", "you"], "answer": 1 },
+          { "q": "I looked at ___ in the mirror.", "options": ["me", "mine", "myself"], "answer": 2 },
+          { "q": "The teacher gave ___ homework.", "options": ["us", "we", "our"], "answer": 0 },
+          { "q": "That bicycle belongs to Ali. It is ___.", "options": ["his", "him", "he"], "answer": 0 },
+          { "q": "They cleaned the room by ___.", "options": ["themselves", "them", "theirselves"], "answer": 0 },
+          { "q": "This is not my bag. It is ___.", "options": ["hers", "her", "she"], "answer": 0 },
+          { "q": "Please help ___.", "options": ["me", "I", "mine"], "answer": 0 }
+        ]
+      },
+
+      "4": {
+        "questions": [
+          { "q": "Everyone should do ___ homework.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The cat hurt ___ while jumping.", "options": ["itself", "it", "its"], "answer": 0 },
+          { "q": "This house is bigger than ___.", "options": ["our", "us", "ours"], "answer": 2 },
+          { "q": "Neither John nor Ali brought ___ book.", "options": ["his", "their", "them"], "answer": 0 },
+          { "q": "I taught ___ how to swim.", "options": ["myself", "me", "mine"], "answer": 0 },
+          { "q": "That dog is ___.", "options": ["their", "them", "theirs"], "answer": 2 },
+          { "q": "We enjoyed ___ at the party.", "options": ["ourselves", "us", "our"], "answer": 0 },
+          { "q": "Each student should bring ___ own pen.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The children introduced ___.", "options": ["themselves", "them", "theirself"], "answer": 0 },
+          { "q": "Is this seat ___?", "options": ["your", "you", "yours"], "answer": 2 }
+        ]
+      },
+
+      "5": {
+        "questions": [
+          { "q": "Someone left ___ bag in the classroom.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The twins did the project by ___.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "That car is not ours. It is ___.", "options": ["theirs", "their", "them"], "answer": 0 },
+          { "q": "The baby can feed ___ now.", "options": ["itself", "it", "its"], "answer": 0 },
+          { "q": "I don't know ___ very well.", "options": ["them", "they", "their"], "answer": 0 },
+          { "q": "This gift is for ___.", "options": ["her", "she", "hers"], "answer": 0 },
+          { "q": "He looked at ___ in the mirror.", "options": ["himself", "him", "his"], "answer": 0 },
+          { "q": "Nobody finished ___ homework early.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The dog wagged ___ tail happily.", "options": ["its", "it's", "it"], "answer": 0 },
+          { "q": "We prepared the meal by ___.", "options": ["ourselves", "us", "our"], "answer": 0 }
+        ]
+      },
+
+      "6": {
+        "questions": [
+          { "q": "Each of the boys brought ___ own lunch.", "options": ["his", "their", "them"], "answer": 0 },
+          { "q": "The actors congratulated ___.", "options": ["themselves", "them", "theirselves"], "answer": 0 },
+          { "q": "The decision is ___.", "options": ["our", "us", "ours"], "answer": 2 },
+          { "q": "She completed the task by ___.", "options": ["herself", "her", "hers"], "answer": 0 },
+          { "q": "This notebook belongs to Sam. It is ___.", "options": ["his", "him", "he"], "answer": 0 },
+          { "q": "Nobody can do this except ___.", "options": ["I", "me", "mine"], "answer": 1 },
+          { "q": "The bird hurt ___ wing.", "options": ["its", "it's", "it"], "answer": 0 },
+          { "q": "They introduced ___ to the new teacher.", "options": ["themselves", "them", "theirselves"], "answer": 0 },
+          { "q": "The teacher asked ___ to be quiet.", "options": ["us", "we", "our"], "answer": 0 },
+          { "q": "The victory was ___.", "options": ["theirs", "their", "them"], "answer": 0 }
+        ]
+      },
+
+      "7": {
+        "questions": [
+          { "q": "Neither of the girls brought ___ notebook.", "options": ["her", "their", "them"], "answer": 0 },
+          { "q": "One should always respect ___ parents.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The cat cleaned ___ after eating.", "options": ["itself", "it", "its"], "answer": 0 },
+          { "q": "This success is entirely ___.", "options": ["yours", "your", "you"], "answer": 0 },
+          { "q": "The students blamed ___ for the mistake.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "That idea was not ___.", "options": ["ours", "our", "us"], "answer": 0 },
+          { "q": "Please give the books to ___.", "options": ["them", "they", "their"], "answer": 0 },
+          { "q": "She herself completed the painting.", "options": ["reflexive pronoun", "possessive pronoun", "relative pronoun"], "answer": 0 },
+          { "q": "The boys introduced ___ to the guests.", "options": ["themselves", "them", "theirselves"], "answer": 0 },
+          { "q": "The final decision is up to ___.", "options": ["us", "we", "our"], "answer": 0 }
+        ]
+      },
+
+      "8": {
+        "questions": [
+          { "q": "Anyone can make ___ own choice.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The players prepared ___ for the final match.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "This classroom is larger than ___.", "options": ["our", "us", "ours"], "answer": 2 },
+          { "q": "Neither Ali nor his brothers finished ___ homework.", "options": ["his", "their", "them"], "answer": 1 },
+          { "q": "The president addressed ___ directly.", "options": ["us", "we", "our"], "answer": 0 },
+          { "q": "The cat injured ___ while climbing.", "options": ["itself", "it", "its"], "answer": 0 },
+          { "q": "That achievement is entirely ___.", "options": ["hers", "her", "she"], "answer": 0 },
+          { "q": "I completed the project by ___.", "options": ["myself", "me", "mine"], "answer": 0 },
+          { "q": "Every student should bring ___ ID card.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The children amused ___.", "options": ["themselves", "them", "their"], "answer": 0 }
+        ]
+      },
+
+      "9": {
+        "questions": [
+          { "q": "Who left ___ umbrella here?", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The committee members blamed ___.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "This victory belongs to ___.", "options": ["us", "we", "ours"], "answer": 2 },
+          { "q": "The actress congratulated ___ after the performance.", "options": ["herself", "her", "hers"], "answer": 0 },
+          { "q": "Neither the teacher nor the students finished ___ work.", "options": ["his", "their", "them"], "answer": 1 },
+          { "q": "The child hurt ___ while playing.", "options": ["itself", "it", "its"], "answer": 0 },
+          { "q": "That beautiful house is ___.", "options": ["theirs", "their", "them"], "answer": 0 },
+          { "q": "Everyone should take care of ___.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "The prize was shared between Ali and ___.", "options": ["me", "I", "mine"], "answer": 0 },
+          { "q": "The students defended ___ during the debate.", "options": ["themselves", "them", "theirselves"], "answer": 0 }
+        ]
+      },
+
+      "10": {
+        "questions": [
+          { "q": "No one except ___ understood the problem.", "options": ["I", "me", "mine"], "answer": 1 },
+          { "q": "The authors dedicated the book to ___.", "options": ["themselves", "them", "theirselves"], "answer": 0 },
+          { "q": "The final responsibility rests with ___.", "options": ["us", "we", "our"], "answer": 0 },
+          { "q": "Each participant must submit ___ application before Friday.", "options": ["his or her", "their", "them"], "answer": 0 },
+          { "q": "The athlete pushed ___ beyond the limit.", "options": ["himself", "him", "his"], "answer": 0 },
+          { "q": "The decision was entirely ___.", "options": ["mine", "my", "me"], "answer": 0 },
+          { "q": "The audience enjoyed ___ during the performance.", "options": ["themselves", "them", "their"], "answer": 0 },
+          { "q": "Neither the manager nor the workers finished ___ tasks.", "options": ["his", "their", "them"], "answer": 1 },
+          { "q": "This ancient temple is older than ___.", "options": ["our", "us", "ours"], "answer": 2 },
+          { "q": "The scientist described ___ as curious and determined.", "options": ["herself", "her", "hers"], "answer": 0 }
+        ]
+      }
+    }
+  }
+          }
