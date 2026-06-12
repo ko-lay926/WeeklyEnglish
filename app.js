@@ -119,6 +119,33 @@ function loadSavedName() {
     }
 }
 
+function getUnlockedLevel(topic) {
+
+    const progress =
+        JSON.parse(localStorage.getItem("progress")) || {};
+
+    return progress[topic] || 1;
+}
+
+function unlockNextLevel(topic, level) {
+
+    const progress =
+        JSON.parse(localStorage.getItem("progress")) || {};
+
+    const currentUnlocked =
+        progress[topic] || 1;
+
+    if (level + 1 > currentUnlocked) {
+
+        progress[topic] = level + 1;
+
+        localStorage.setItem(
+            "progress",
+            JSON.stringify(progress)
+        );
+    }
+}
+
 /* Start Topic */
 
 async function loadTopic(topic) {
@@ -146,6 +173,9 @@ function buildLevelButtons() {
     const levels =
         currentTopicData.levels;
 
+    const unlocked =
+        getUnlockedLevel(currentTopic);
+
     Object.keys(levels).forEach(level => {
 
         const btn =
@@ -153,11 +183,21 @@ function buildLevelButtons() {
 
         btn.className = "levelBtn";
 
-        btn.textContent =
-            "Level " + level;
+        if (parseInt(level) <= unlocked) {
 
-        btn.onclick = () =>
-            startLevel(level);
+            btn.textContent =
+                "✅ Level " + level;
+
+            btn.onclick = () =>
+                startLevel(level);
+
+        } else {
+
+            btn.textContent =
+                "🔒 Level " + level;
+
+            btn.disabled = true;
+        }
 
         container.appendChild(btn);
     });
@@ -269,6 +309,14 @@ function finishQuiz() {
     const total = currentQuestions.length;
 
     const percent = (score / total) * 100;
+    
+    if (percent === 100) {
+
+    unlockNextLevel(
+        currentTopic,
+        currentLevel
+    );
+    }
 
     // Save result
     saveResult();
@@ -280,11 +328,33 @@ function finishQuiz() {
     // End result screen
     showScreen("resultSection");
 
+    let message = "";
+    if ((score / total) * 100 === 100) {
+
+    message =
+        "🎉 Perfect Score! Next Level Unlocked!";
+    }
+    else {
+
+    message =
+        "🔒 Score 100% to unlock the next level.";
+    }
     document.getElementById("scoreText").innerHTML =
-        `
-        Topic: ${currentTopic.toUpperCase()}<br>
-        Level: ${currentLevel}<br>
-        Score: ${score}/${total}`;
+    `
+    Topic: ${currentTopic.toUpperCase()}<br>
+    Level: ${currentLevel}<br>
+    Score: ${score}/${total}<br><br>
+    ${message}`;
+}
+
+function resetProgress() {
+
+    if (!confirm("Reset all level progress?"))
+        return;
+
+    localStorage.removeItem("progress");
+
+    alert("Progress reset.");
 }
 
 /* Save Result */
