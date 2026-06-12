@@ -82,6 +82,12 @@ function showScreen(screenId) {
         active.classList.remove("hidden");
         active.classList.add("fade");
     }
+
+    // 🔥 ALWAYS UPDATE HISTORY WHEN MENU IS SHOWN
+    if (screenId === "topicSection") {
+        loadHistory();
+        document.getElementById("historySection").classList.remove("hidden");
+    }
 }
 
 /* Name */
@@ -335,7 +341,10 @@ function goHome() {
     showScreen("topicSection");
 
     loadHistory();
+
+    document.getElementById("historySection").classList.remove("hidden");
 }
+
 if (navigator.serviceWorker) {
     navigator.serviceWorker.getRegistrations()
         .then(regs => {
