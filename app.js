@@ -299,6 +299,8 @@ function saveResult() {
 
         topic: currentTopic,
 
+        level: currentLevel,
+
         score: `${score}/${currentQuestions.length}`,
 
         date: now.toLocaleDateString(),
