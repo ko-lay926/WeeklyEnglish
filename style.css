@@ -208,6 +208,16 @@ button:hover{
     background: #c0392b;
 }
 
+.levelBtn{
+    width:100%;
+    padding:15px;
+    margin:8px 0;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+}
+
 /* Smooth card feel */
 section {
     transition: all 0.3s ease;
