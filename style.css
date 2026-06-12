@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    min-height:100vh;
+}
+
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.hidden{
+    display:none;
+}
+
+/* Splash Screen */
+
+#splash{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#4CAF50;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+}
+
+#splash h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+#splash p{
+    font-size:18px;
+}
+
+/* Sections */
+
+section{
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+/* Name Input */
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+/* Buttons */
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#4CAF50;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+/* Topic Buttons */
+
+.topics{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.topicBtn{
+    min-height:80px;
+    font-weight:bold;
+    position:relative;
+}
+
+.topicBtn span{
+    display:block;
+    margin-top:6px;
+    font-size:12px;
+    font-weight:normal;
+}
+
+/* Quiz */
+
+#question{
+    margin-bottom:15px;
+}
+
+.optionBtn{
+    width:100%;
+    margin-bottom:10px;
+    background:#2196F3;
+}
+
+.optionBtn.selected{
+    background:#FF9800;
+}
+
+/* Progress */
+
+#progress{
+    margin-top:15px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Result */
+
+#scoreText{
+    font-size:22px;
+    font-weight:bold;
+    text-align:center;
+    margin:20px 0;
+}
+
+/* History */
+
+.historyItem{
+    background:#f2f2f2;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:10px;
+}
+
+.historyItem strong{
+    display:block;
+    margin-bottom:5px;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .topics{
+        grid-template-columns:1fr;
+    }
+
+    header{
+        font-size:18px;
+    }
+
+}
