@@ -61,6 +61,29 @@ function showUpdateDates() {
             "Updated: " + quizData.adjective.updated;
 }
 
+function showScreen(screenId) {
+
+    const screens = [
+        "nameSection",
+        "topicSection",
+        "quizSection",
+        "resultSection",
+        "historySection"
+    ];
+
+    screens.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add("hidden");
+    });
+
+    const active = document.getElementById(screenId);
+
+    if (active) {
+        active.classList.remove("hidden");
+        active.classList.add("fade");
+    }
+}
+
 /* Name */
 
 function saveName() {
@@ -77,8 +100,7 @@ function saveName() {
     document.getElementById("welcome").textContent =
         "Welcome, " + name + "!";
 
-    // 🔥 HIDE NAME SECTION
-    document.getElementById("nameSection").classList.add("hidden");
+    showScreen("topicSection");
 }
 
 function loadSavedName() {
@@ -92,8 +114,11 @@ function loadSavedName() {
         document.getElementById("welcome").textContent =
             "Welcome, " + name + "!";
 
-        // 🔥 AUTO HIDE NAME SECTION
-        document.getElementById("nameSection").classList.add("hidden");
+        showScreen("topicSection");
+
+    } else {
+
+        showScreen("nameSection");
     }
 }
 
@@ -101,23 +126,12 @@ function loadSavedName() {
 
 function loadTopic(topic) {
 
-    if (!quizData[topic]) {
-        alert("Topic not found");
-        return;
-    }
-
     currentTopic = topic;
     currentQuestions = quizData[topic].questions;
     currentIndex = 0;
     score = 0;
 
-    // 🔥 HIDE EVERYTHING FIRST
-    document.getElementById("topicSection").classList.add("hidden");
-    document.getElementById("historySection").classList.add("hidden");
-    document.getElementById("resultSection").classList.add("hidden");
-
-    // 🔥 SHOW QUIZ ONLY
-    document.getElementById("quizSection").classList.remove("hidden");
+    showScreen("quizSection");
 
     document.getElementById("topicTitle").textContent =
         topic.toUpperCase();
@@ -197,13 +211,7 @@ function nextQuestion() {
 
 function finishQuiz() {
 
-    document.getElementById("quizSection").classList.add("hidden");
-
-    document.getElementById("resultSection").classList.remove("hidden");
-
-    // 🔥 HIDE OTHER SECTIONS
-    document.getElementById("topicSection").classList.add("hidden");
-    document.getElementById("historySection").classList.add("hidden");
+    showScreen("resultSection");
 
     const total = currentQuestions.length;
 
@@ -324,15 +332,10 @@ Score: ${score}/${currentQuestions.length}
 
 function goHome() {
 
-    document.getElementById("quizSection").classList.add("hidden");
-    document.getElementById("resultSection").classList.add("hidden");
+    showScreen("topicSection");
 
-    document.getElementById("topicSection").classList.remove("hidden");
-    document.getElementById("historySection").classList.remove("hidden");
-
-    window.scrollTo(0, 0);
+    loadHistory();
 }
-
 if (navigator.serviceWorker) {
     navigator.serviceWorker.getRegistrations()
         .then(regs => {
