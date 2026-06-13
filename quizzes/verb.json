@@ -1,0 +1,159 @@
+{
+  "verb": {
+    "updated": "2026-06-12",
+    "levels": {
+      "1": {
+        "questions": [
+          { "q": "She ___ to school every day.", "options": ["goes", "going", "go"], "answer": 0 },
+          { "q": "They ___ football after school.", "options": ["plays", "play", "playing"], "answer": 1 },
+          { "q": "I ___ my homework at night.", "options": ["doing", "do", "does"], "answer": 1 },
+          { "q": "He ___ TV every evening.", "options": ["watching", "watches", "watch"], "answer": 1 },
+          { "q": "We ___ breakfast at 7 AM.", "options": ["eat", "eats", "eating"], "answer": 0 },
+          { "q": "The dog ___ very fast.", "options": ["runs", "run", "running"], "answer": 0 },
+          { "q": "My mother ___ dinner every night.", "options": ["cooking", "cook", "cooks"], "answer": 2 },
+          { "q": "I ___ English at school.", "options": ["study", "studies", "studying"], "answer": 0 },
+          { "q": "They ___ in the park.", "options": ["playing", "play", "plays"], "answer": 1 },
+          { "q": "He ___ music every day.", "options": ["listens", "listening", "listen"], "answer": 0 }
+        ]
+      },
+
+      "2": {
+        "questions": [
+          { "q": "She ___ a picture in her notebook.", "options": ["draws", "drawing", "draw"], "answer": 0 },
+          { "q": "I ___ water every morning.", "options": ["drink", "drinks", "drinking"], "answer": 0 },
+          { "q": "They ___ to school by bus.", "options": ["going", "goes", "go"], "answer": 2 },
+          { "q": "He ___ his homework after school.", "options": ["does", "doing", "do"], "answer": 0 },
+          { "q": "We ___ in the same class.", "options": ["studying", "study", "studies"], "answer": 1 },
+          { "q": "The baby ___ loudly.", "options": ["cry", "cries", "crying"], "answer": 1 },
+          { "q": "My father ___ the car every Sunday.", "options": ["washes", "washing", "wash"], "answer": 0 },
+          { "q": "I ___ my teeth twice a day.", "options": ["brushes", "brush", "brushing"], "answer": 1 },
+          { "q": "She ___ her room every week.", "options": ["cleans", "cleaning", "clean"], "answer": 0 },
+          { "q": "The birds ___ in the sky.", "options": ["flies", "flying", "fly"], "answer": 2 }
+        ]
+      },
+
+      "3": {
+        "questions": [
+          { "q": "He ___ basketball every weekend.", "options": ["plays", "play", "playing"], "answer": 0 },
+          { "q": "They ___ lunch together every day.", "options": ["eats", "eat", "eating"], "answer": 1 },
+          { "q": "I ___ a story before bed.", "options": ["reading", "reads", "read"], "answer": 2 },
+          { "q": "She ___ flowers in the garden.", "options": ["waters", "water", "watering"], "answer": 0 },
+          { "q": "The teacher ___ English very well.", "options": ["teaches", "teach", "teaching"], "answer": 0 },
+          { "q": "We ___ to music after dinner.", "options": ["listen", "listening", "listens"], "answer": 0 },
+          { "q": "The cat ___ on the sofa.", "options": ["sleeps", "sleeping", "sleep"], "answer": 0 },
+          { "q": "I ___ my bag every morning.", "options": ["carrying", "carry", "carries"], "answer": 1 },
+          { "q": "My brother ___ his bike to school.", "options": ["rides", "riding", "ride"], "answer": 0 },
+          { "q": "They ___ games during break time.", "options": ["playing", "plays", "play"], "answer": 2 }
+        ]
+      },
+
+      "4": {
+        "questions": [
+          { "q": "She ___ letters to her friend every month.", "options": ["writes", "writing", "write"], "answer": 0 },
+          { "q": "I ___ my room on Saturdays.", "options": ["clean", "cleans", "cleaning"], "answer": 0 },
+          { "q": "The boys ___ in the river during summer.", "options": ["swim", "swimming", "swims"], "answer": 0 },
+          { "q": "He ___ breakfast before school.", "options": ["eating", "eats", "eat"], "answer": 1 },
+          { "q": "We ___ our grandparents every weekend.", "options": ["visit", "visiting", "visits"], "answer": 0 },
+          { "q": "The baby ___ when she is hungry.", "options": ["cries", "crying", "cry"], "answer": 0 },
+          { "q": "My sister ___ beautiful pictures.", "options": ["paints", "painting", "paint"], "answer": 0 },
+          { "q": "I ___ the bus every morning.", "options": ["catches", "catch", "catching"], "answer": 1 },
+          { "q": "The students ___ quietly in class.", "options": ["sit", "sitting", "sits"], "answer": 0 },
+          { "q": "He ___ his homework carefully.", "options": ["does", "doing", "do"], "answer": 0 }
+        ]
+      },
+
+      "5": {
+        "questions": [
+          { "q": "She ___ the piano very well.", "options": ["plays", "playing", "play"], "answer": 0 },
+          { "q": "I ___ tea every morning.", "options": ["drinks", "drink", "drinking"], "answer": 1 },
+          { "q": "The children ___ cartoons after school.", "options": ["watching", "watch", "watches"], "answer": 1 },
+          { "q": "He ___ his shoes before entering the room.", "options": ["removes", "remove", "removing"], "answer": 0 },
+          { "q": "We ___ our lessons every evening.", "options": ["revise", "revises", "revising"], "answer": 0 },
+          { "q": "The bird ___ in the tree every morning.", "options": ["sings", "sing", "singing"], "answer": 0 },
+          { "q": "My uncle ___ in a hospital.", "options": ["works", "working", "work"], "answer": 0 },
+          { "q": "I ___ my lunch to school.", "options": ["bring", "brings", "bringing"], "answer": 0 },
+          { "q": "The girls ___ volleyball after class.", "options": ["play", "plays", "playing"], "answer": 0 },
+          { "q": "He ___ the newspaper every day.", "options": ["reads", "reading", "read"], "answer": 0 }
+        ]
+      },
+    
+  
+        
+
+  "6": {
+    "questions": [
+      { "q": "The teacher ___ the lesson clearly.", "options": ["explains", "explain", "explaining"], "answer": 0 },
+      { "q": "I ___ my grandparents during holidays.", "options": ["visit", "visiting", "visits"], "answer": 0 },
+      { "q": "The boys ___ football every Saturday.", "options": ["playing", "plays", "play"], "answer": 2 },
+      { "q": "She ___ the dishes after dinner.", "options": ["washes", "wash", "washing"], "answer": 0 },
+      { "q": "We ___ to school at 7 AM.", "options": ["walk", "walking", "walks"], "answer": 0 },
+      { "q": "The dog ___ at strangers loudly.", "options": ["barks", "barking", "bark"], "answer": 0 },
+      { "q": "My father ___ coffee every morning.", "options": ["drinks", "drink", "drinking"], "answer": 0 },
+      { "q": "I ___ my homework before dinner.", "options": ["finish", "finishes", "finishing"], "answer": 0 },
+      { "q": "The students ___ questions during the lesson.", "options": ["ask", "asking", "asks"], "answer": 0 },
+      { "q": "He ___ his bicycle very carefully.", "options": ["rides", "ride", "riding"], "answer": 0 }
+    ]
+  },
+
+  "7": {
+    "questions": [
+      { "q": "Neither of the boys ___ football on Sundays.", "options": ["plays", "play", "playing"], "answer": 0 },
+      { "q": "She ___ her grandmother every weekend.", "options": ["visits", "visit", "visiting"], "answer": 0 },
+      { "q": "The students ___ hard before exams.", "options": ["study", "studying", "studies"], "answer": 0 },
+      { "q": "He ___ the answer immediately.", "options": ["knows", "know", "knowing"], "answer": 0 },
+      { "q": "We ___ our classroom every Friday.", "options": ["clean", "cleans", "cleaning"], "answer": 0 },
+      { "q": "The bird ___ across the lake.", "options": ["flies", "fly", "flying"], "answer": 0 },
+      { "q": "My brother ___ comic books every night.", "options": ["reads", "read", "reading"], "answer": 0 },
+      { "q": "I ___ vegetables every day.", "options": ["eat", "eats", "eating"], "answer": 0 },
+      { "q": "The baby ___ peacefully in the cradle.", "options": ["sleeps", "sleep", "sleeping"], "answer": 0 },
+      { "q": "She ___ emails to her friends regularly.", "options": ["sends", "send", "sending"], "answer": 0 }
+    ]
+  },
+
+  "8": {
+    "questions": [
+      { "q": "Everyone ___ the importance of education.", "options": ["understands", "understand", "understanding"], "answer": 0 },
+      { "q": "The manager ___ meetings every Monday.", "options": ["holds", "hold", "holding"], "answer": 0 },
+      { "q": "I ___ classical music in the evening.", "options": ["enjoy", "enjoys", "enjoying"], "answer": 0 },
+      { "q": "The athletes ___ every morning before sunrise.", "options": ["train", "trains", "training"], "answer": 0 },
+      { "q": "She ___ her notes before each class.", "options": ["reviews", "review", "reviewing"], "answer": 0 },
+      { "q": "The students ___ respectfully to their teacher.", "options": ["speak", "speaks", "speaking"], "answer": 0 },
+      { "q": "My cousin ___ in Singapore.", "options": ["lives", "live", "living"], "answer": 0 },
+      { "q": "We ___ the truth from our parents.", "options": ["learn", "learns", "learning"], "answer": 0 },
+      { "q": "The child ___ loudly during the storm.", "options": ["cries", "cry", "crying"], "answer": 0 },
+      { "q": "He ___ his time wisely.", "options": ["uses", "use", "using"], "answer": 0 }
+    ]
+  },
+
+  "9": {
+    "questions": [
+      { "q": "Each student ___ a dictionary to class.", "options": ["brings", "bring", "bringing"], "answer": 0 },
+      { "q": "The scientist ___ experiments every week.", "options": ["conducts", "conduct", "conducting"], "answer": 0 },
+      { "q": "I ___ novels during my free time.", "options": ["read", "reads", "reading"], "answer": 0 },
+      { "q": "The committee ___ once every month.", "options": ["meets", "meet", "meeting"], "answer": 0 },
+      { "q": "She ___ difficult problems very quickly.", "options": ["solves", "solve", "solving"], "answer": 0 },
+      { "q": "The children ___ around the playground happily.", "options": ["run", "runs", "running"], "answer": 0 },
+      { "q": "My teacher ___ us interesting stories.", "options": ["tells", "tell", "telling"], "answer": 0 },
+      { "q": "We ___ our mistakes from time to time.", "options": ["correct", "corrects", "correcting"], "answer": 0 },
+      { "q": "The dog ___ its owner at the gate.", "options": ["waits", "wait", "waiting"], "answer": 0 },
+      { "q": "He ___ mathematics at university.", "options": ["studies", "study", "studying"], "answer": 0 }
+    ]
+  },
+
+  "10": {
+    "questions": [
+      { "q": "Neither the teacher nor the students ___ the answer.", "options": ["know", "knows", "knowing"], "answer": 0 },
+      { "q": "The principal ___ every student's progress carefully.", "options": ["monitors", "monitor", "monitoring"], "answer": 0 },
+      { "q": "I ___ responsibility for my actions.", "options": ["accept", "accepts", "accepting"], "answer": 0 },
+      { "q": "The engineers ___ complex machines efficiently.", "options": ["design", "designs", "designing"], "answer": 0 },
+      { "q": "She ___ confidence during presentations.", "options": ["shows", "show", "showing"], "answer": 0 },
+      { "q": "The researchers ___ valuable data every year.", "options": ["collect", "collects", "collecting"], "answer": 0 },
+      { "q": "My uncle ___ rare books as a hobby.", "options": ["collects", "collect", "collecting"], "answer": 0 },
+      { "q": "We ___ environmental problems seriously.", "options": ["consider", "considers", "considering"], "answer": 0 },
+      { "q": "The musician ___ beautifully on stage.", "options": ["performs", "perform", "performing"], "answer": 0 },
+      { "q": "Every player ___ hard before the tournament.", "options": ["trains", "train", "training"], "answer": 0 }
+    ]
+  }
+    }
+  }
+      }
