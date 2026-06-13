@@ -1,0 +1,553 @@
+{
+  "adjective": {
+    "updated": "2026-06-12",
+    "levels": {
+      "1": {
+        "questions": [
+          {
+            "q": "The cat is ___.",
+            "options": ["run", "soft", "quickly"],
+            "answer": 1
+          },
+          {
+            "q": "She has a ___ bag.",
+            "options": ["jump", "red", "slowly"],
+            "answer": 1
+          },
+          {
+            "q": "The boy is very ___.",
+            "options": ["happily", "tall", "sing"],
+            "answer": 1
+          },
+          {
+            "q": "We saw a ___ elephant.",
+            "options": ["dance", "quickly", "big"],
+            "answer": 2
+          },
+          {
+            "q": "The flower is ___.",
+            "options": ["beautiful", "slowly", "write"],
+            "answer": 0
+          },
+          {
+            "q": "He is wearing a ___ shirt.",
+            "options": ["sadly", "blue", "run"],
+            "answer": 1
+          },
+          {
+            "q": "The soup is very ___.",
+            "options": ["eat", "hot", "quietly"],
+            "answer": 1
+          },
+          {
+            "q": "They live in a ___ house.",
+            "options": ["happily", "small", "walk"],
+            "answer": 1
+          },
+          {
+            "q": "The rabbit is very ___.",
+            "options": ["slowly", "jump", "fast"],
+            "answer": 2
+          },
+          {
+            "q": "I have a ___ pencil.",
+            "options": ["carefully", "long", "swim"],
+            "answer": 1
+          }
+        ]
+      },
+
+      "2": {
+        "questions": [
+          {
+            "q": "The ice cream is very ___.",
+            "options": ["run", "sweet", "slowly"],
+            "answer": 1
+          },
+          {
+            "q": "She has ___ hair.",
+            "options": ["quickly", "curly", "dance"],
+            "answer": 1
+          },
+          {
+            "q": "The lion is ___.",
+            "options": ["strong", "carefully", "read"],
+            "answer": 0
+          },
+          {
+            "q": "We saw a ___ bird in the tree.",
+            "options": ["jump", "colorful", "happily"],
+            "answer": 1
+          },
+          {
+            "q": "The baby looks ___.",
+            "options": ["walk", "happy", "slowly"],
+            "answer": 1
+          },
+          {
+            "q": "My school bag is very ___.",
+            "options": ["heavy", "quietly", "sing"],
+            "answer": 0
+          },
+          {
+            "q": "The old man is very ___.",
+            "options": ["sadly", "kind", "write"],
+            "answer": 1
+          },
+          {
+            "q": "It was a ___ movie.",
+            "options": ["eat", "carefully", "funny"],
+            "answer": 2
+          },
+          {
+            "q": "The water is ___.",
+            "options": ["cold", "swim", "quickly"],
+            "answer": 0
+          },
+          {
+            "q": "She wore a ___ dress.",
+            "options": ["run", "pretty", "softly"],
+            "answer": 1
+          }
+        ]
+      },
+      "3": {
+  "questions": [
+    {
+      "q": "The test was very ___.",
+      "options": ["quietly", "easy", "jump"],
+      "answer": 1
+    },
+    {
+      "q": "The tiger is a ___ animal.",
+      "options": ["dangerous", "slowly", "dance"],
+      "answer": 0
+    },
+    {
+      "q": "He bought a ___ car.",
+      "options": ["run", "new", "happily"],
+      "answer": 1
+    },
+    {
+      "q": "The classroom is very ___.",
+      "options": ["sing", "carefully", "clean"],
+      "answer": 2
+    },
+    {
+      "q": "The baby has ___ cheeks.",
+      "options": ["chubby", "walk", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The mountain is very ___.",
+      "options": ["write", "high", "sadly"],
+      "answer": 1
+    },
+    {
+      "q": "She gave me a ___ smile.",
+      "options": ["eat", "quietly", "warm"],
+      "answer": 2
+    },
+    {
+      "q": "The dog looks ___.",
+      "options": ["hungry", "softly", "jump"],
+      "answer": 0
+    },
+    {
+      "q": "We stayed in a ___ hotel.",
+      "options": ["swim", "comfortable", "happily"],
+      "answer": 1
+    },
+    {
+      "q": "The little girl is very ___.",
+      "options": ["run", "carefully", "clever"],
+      "answer": 2
+    }
+  ]
+},
+
+"4": {
+  "questions": [
+    {
+      "q": "The book was very ___.",
+      "options": ["interesting", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "He is a ___ student.",
+      "options": ["quickly", "hardworking", "dance"],
+      "answer": 1
+    },
+    {
+      "q": "The sky looks ___.",
+      "options": ["cloudy", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "They bought a ___ table.",
+      "options": ["run", "wooden", "quietly"],
+      "answer": 1
+    },
+    {
+      "q": "The soup tastes ___.",
+      "options": ["delicious", "sadly", "write"],
+      "answer": 0
+    },
+    {
+      "q": "My grandfather is very ___.",
+      "options": ["eat", "wise", "softly"],
+      "answer": 1
+    },
+    {
+      "q": "The classroom became ___.",
+      "options": ["carefully", "jump", "noisy"],
+      "answer": 2
+    },
+    {
+      "q": "She wore ___ shoes to the party.",
+      "options": ["shiny", "sing", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The river is very ___.",
+      "options": ["walk", "deep", "happily"],
+      "answer": 1
+    },
+    {
+      "q": "The boy gave a ___ answer.",
+      "options": ["run", "quietly", "correct"],
+      "answer": 2
+    }
+  ]
+},
+
+"5": {
+  "questions": [
+    {
+      "q": "The movie was extremely ___.",
+      "options": ["jump", "exciting", "slowly"],
+      "answer": 1
+    },
+    {
+      "q": "She has a ___ voice.",
+      "options": ["gentle", "quickly", "dance"],
+      "answer": 0
+    },
+    {
+      "q": "The streets became very ___.",
+      "options": ["crowded", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "He made a ___ decision.",
+      "options": ["quietly", "smart", "run"],
+      "answer": 1
+    },
+    {
+      "q": "The teacher gave a ___ explanation.",
+      "options": ["clear", "write", "sadly"],
+      "answer": 0
+    },
+    {
+      "q": "The weather is very ___.",
+      "options": ["pleasant", "softly", "eat"],
+      "answer": 0
+    },
+    {
+      "q": "She adopted a ___ puppy.",
+      "options": ["carefully", "playful", "jump"],
+      "answer": 1
+    },
+    {
+      "q": "The garden looks ___.",
+      "options": ["beautiful", "quickly", "sing"],
+      "answer": 0
+    },
+    {
+      "q": "The old building is still ___.",
+      "options": ["walk", "happily", "strong"],
+      "answer": 2
+    },
+    {
+      "q": "The child became ___.",
+      "options": ["sleepy", "quietly", "run"],
+      "answer": 0
+    }
+  ]
+        },
+      
+    "6": {
+  "questions": [
+    {
+      "q": "The scientist gave a ___ speech.",
+      "options": ["detailed", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "The cake smells ___.",
+      "options": ["wonderful", "dance", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "She is a very ___ leader.",
+      "options": ["walk", "confident", "happily"],
+      "answer": 1
+    },
+    {
+      "q": "The road became very ___.",
+      "options": ["run", "quietly", "slippery"],
+      "answer": 2
+    },
+    {
+      "q": "He gave me a ___ gift.",
+      "options": ["valuable", "sadly", "write"],
+      "answer": 0
+    },
+    {
+      "q": "The mountain air feels ___.",
+      "options": ["eat", "fresh", "softly"],
+      "answer": 1
+    },
+    {
+      "q": "The students remained ___.",
+      "options": ["silent", "jump", "carefully"],
+      "answer": 0
+    },
+    {
+      "q": "It was a ___ experience.",
+      "options": ["sing", "memorable", "quickly"],
+      "answer": 1
+    },
+    {
+      "q": "The child looked ___.",
+      "options": ["frightened", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The businessman is very ___.",
+      "options": ["run", "successful", "quietly"],
+      "answer": 1
+    }
+  ]
+},
+
+"7": {
+  "questions": [
+    {
+      "q": "The lecture was highly ___.",
+      "options": ["informative", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "She made a ___ argument.",
+      "options": ["dance", "convincing", "quickly"],
+      "answer": 1
+    },
+    {
+      "q": "The room felt ___.",
+      "options": ["spacious", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "He is a very ___ writer.",
+      "options": ["creative", "quietly", "run"],
+      "answer": 0
+    },
+    {
+      "q": "The rescue team was extremely ___.",
+      "options": ["brave", "write", "sadly"],
+      "answer": 0
+    },
+    {
+      "q": "The forest looked ___.",
+      "options": ["softly", "mysterious", "eat"],
+      "answer": 1
+    },
+    {
+      "q": "She gave a ___ performance.",
+      "options": ["remarkable", "carefully", "jump"],
+      "answer": 0
+    },
+    {
+      "q": "The manager made a ___ plan.",
+      "options": ["sing", "quickly", "practical"],
+      "answer": 2
+    },
+    {
+      "q": "The child remained ___.",
+      "options": ["patient", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The museum was very ___.",
+      "options": ["run", "impressive", "quietly"],
+      "answer": 1
+    }
+  ]
+},
+
+"8": {
+  "questions": [
+    {
+      "q": "The scientist proposed an ___ theory.",
+      "options": ["innovative", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "The city became increasingly ___.",
+      "options": ["modern", "quickly", "dance"],
+      "answer": 0
+    },
+    {
+      "q": "She showed ___ courage during the crisis.",
+      "options": ["walk", "happily", "extraordinary"],
+      "answer": 2
+    },
+    {
+      "q": "The novel contains ___ characters.",
+      "options": ["complex", "run", "quietly"],
+      "answer": 0
+    },
+    {
+      "q": "The athlete delivered an ___ performance.",
+      "options": ["outstanding", "write", "sadly"],
+      "answer": 0
+    },
+    {
+      "q": "The teacher provided ___ instructions.",
+      "options": ["accurate", "softly", "eat"],
+      "answer": 0
+    },
+    {
+      "q": "The weather became suddenly ___.",
+      "options": ["jump", "unpredictable", "carefully"],
+      "answer": 1
+    },
+    {
+      "q": "The castle looked ___.",
+      "options": ["magnificent", "sing", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The students gave ___ responses.",
+      "options": ["thoughtful", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The businessman made a ___ investment.",
+      "options": ["run", "profitable", "quietly"],
+      "answer": 1
+    }
+  ]
+},
+      "9": {
+  "questions": [
+    {
+      "q": "The professor delivered an ___ explanation.",
+      "options": ["insightful", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "She has an ___ personality.",
+      "options": ["dance", "optimistic", "quickly"],
+      "answer": 1
+    },
+    {
+      "q": "The project required ___ planning.",
+      "options": ["careful", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The speech was deeply ___.",
+      "options": ["run", "quietly", "inspiring"],
+      "answer": 2
+    },
+    {
+      "q": "The mountain path became extremely ___.",
+      "options": ["dangerous", "write", "sadly"],
+      "answer": 0
+    },
+    {
+      "q": "The artist created a truly ___ painting.",
+      "options": ["masterful", "eat", "softly"],
+      "answer": 0
+    },
+    {
+      "q": "The students remained ___ during the emergency.",
+      "options": ["calm", "jump", "carefully"],
+      "answer": 0
+    },
+    {
+      "q": "The company introduced an ___ product.",
+      "options": ["advanced", "sing", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The detective made a ___ observation.",
+      "options": ["clever", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The library is very ___.",
+      "options": ["peaceful", "run", "quietly"],
+      "answer": 0
+    }
+  ]
+},
+
+"10": {
+  "questions": [
+    {
+      "q": "The scientist presented a highly ___ analysis.",
+      "options": ["comprehensive", "jump", "slowly"],
+      "answer": 0
+    },
+    {
+      "q": "She demonstrated ___ leadership during the project.",
+      "options": ["exceptional", "dance", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The ancient temple looked absolutely ___.",
+      "options": ["majestic", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The lawyer gave a very ___ argument.",
+      "options": ["persuasive", "run", "quietly"],
+      "answer": 0
+    },
+    {
+      "q": "The students produced ___ results.",
+      "options": ["remarkable", "write", "sadly"],
+      "answer": 0
+    },
+    {
+      "q": "The engineer designed an ___ system.",
+      "options": ["efficient", "eat", "softly"],
+      "answer": 0
+    },
+    {
+      "q": "The audience remained completely ___.",
+      "options": ["silent", "jump", "carefully"],
+      "answer": 0
+    },
+    {
+      "q": "The novel offers a ___ description of society.",
+      "options": ["realistic", "sing", "quickly"],
+      "answer": 0
+    },
+    {
+      "q": "The explorer faced ___ challenges during the journey.",
+      "options": ["dangerous", "walk", "happily"],
+      "answer": 0
+    },
+    {
+      "q": "The final performance was truly ___.",
+      "options": ["spectacular", "run", "quietly"],
+      "answer": 0
+    }
+  ]
+        }
+  }
+}
