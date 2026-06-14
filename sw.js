@@ -7,7 +7,8 @@ const FILES_TO_CACHE = [
   "./app.js",
   "./quizzes.json",
   "./manifest.json",
-  "./logo.png"
+  "./icons/icon-192.png",
+  "./icons/icon-512.png"
 ];
 
 /* Install */
@@ -26,30 +27,6 @@ self.addEventListener("install", event => {
 
 /* Activate */
 
-self.addEventListener("activate", event => {
-
-  event.waitUntil(
-
-    caches.keys().then(keys => {
-
-      return Promise.all(
-
-        keys.map(key => {
-
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-
-        })
-
-      );
-
-    })
-
-  );
-
-  self.clients.claim();
-});
 
 /* Fetch */
 
